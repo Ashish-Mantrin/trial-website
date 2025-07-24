@@ -1395,6 +1395,12 @@ li.call-info {
     .contact-map iframe {
         border-radius: 12px;
     }
+    .about-overlay-img {
+    display: none;
+}
+.about-overlay-text {
+    display: none;
+}
 }
 
 @media screen and (max-width: 575px) {
@@ -1453,19 +1459,9 @@ li.call-info {
         padding: 0;
     }
 
-    .about-overlay-img {
-        bottom: 20px;
-        width: 138px;
-    }
-
+ 
     .about-image {
         padding: 0px;
-    }
-
-    .about-overlay-text {
-        padding: 10px 6px;
-        top: 38px;
-        left: 0;
     }
 
     .about-overlay-title {
